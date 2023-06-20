@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: webstudent
+    url: jdbc:mysql://127.0.0.1:3306/web_student_tracker
+    username: webstudent
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+    show-sql: true
+app:
+  messages:
+      success: Registration complete
+      error: Email already exists,Use unique one..
+      check: check your details
+
+            
